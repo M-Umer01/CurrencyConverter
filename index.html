@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="converter">
+		<div class="conv_heading">
+			<div class="small">
+				<span id="to_head"></span> equals
+			</div>
+			<div class="large">
+				<span id="from_head"></span>
+			</div>
+		</div>
+        <div class="btnPannel">
+        	<div class="btns">
+            	<div val="1d" class="chartTime"><span>1D</span></div>
+            	<div val="5d" class="chartTime"><span>5D</span></div>
+            	<div val="1M" class="chartTime"><span>1 M</span></div>
+            	<div val="1Y" class="chartTime"><span>1 Y</span></div>
+            	<div val="5Y" class="chartTime active"><span>5 Y</span></div>
+            	<div val="max" class="chartTime"><span>Max</span></div>
+            </div>
+        </div>
+		<div class="conv_body">
+			<div class="chart" id="chart">
+				
+			</div>
+			<div class="selects">
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<input id="input_from" class="input" value="" type="number">
+							</td>
+							<td class="td_empty"></td>
+							<td>
+								<div class="sel">
+									<select id="select_from" class="select">
+									</select>
+									<div class="sel1"></div>
+									<div class="sel2"></div>
+								</div>
+							</td>
+						</tr>
+						<tr class="tr_empty"></tr>
+						<tr>
+							<td>
+								<input id="input_to" class="input" value="" type="number">
+							</td>
+							<td class="td_empty"></td>
+							<td>
+								<div class="sel">
+									<select id="select_to" class="select">
+									</select>
+									<div class="sel1"></div>
+									<div class="sel2"></div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial,sans-serif;
+  	font-size: small;
+}
+.converter{
+	padding: 20px 16px 24px 16px;
+	margin: 12px;
+	line-height: 1.2;
+    text-align: left;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	width: 600px;
+	min-height:180px;
+}
+.conv_heading .small{
+	font-size: medium !important;
+	color: #878787 !important;
+}
+.conv_heading .large{
+	font-size: xx-large !important;
+	color: #212121 !important;
+	margin-top: 4px;
+    margin-bottom: 0;
+}
+.btnPannel{
+	width: 100%;    
+	line-height: 1.2;
+    text-align: left;
+    overflow: hidden;
+}
+.btnPannel .btns{
+	width: 45%;
+    float: right;
+    position: relative;
+    top: 5px;
+	margin-top: 10px;
+    padding: 0 2px 10px 2px;
+    text-align: center;
+}
+.btnPannel .btns div{
+	float:left;
+	cursor:pointer;
+	width:40px;
+	height:38px;
+	padding-top: 8px;
+}
+.btnPannel .btns div span{
+    font-weight: 500;
+	padding: 4px 8px;
+    font-size: 12px;
+    color: rgba(0,0,0,.62);
+}
+.btnPannel .btns div.active:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.btnPannel .btns div.active span{
+	color: #4285f4;    
+	background: #eee;
+    border-radius: 12px;
+}
+.conv_body{
+	width: 100%;    
+	line-height: 1.2;
+    text-align: left;
+    overflow: hidden;
+	min-height:114px;
+}
+.conv_body .chart{
+	width: 45%;
+    float: right;
+    position: relative;
+    top: 5px;
+	margin-top: 10px;
+    padding: 0 2px 10px 2px;
+    text-align: center;
+}
+.conv_body .chart img{
+	height: 94px;
+	width: 100%;
+}
+.conv_body .selects{
+	width: 50%;
+    position: relative;
+    top: 15px;	
+}
+.conv_body .selects table{
+	table-layout: fixed;
+    width: 100%;
+}
+.conv_body .selects table tbody .tr_empty{
+	height: 5px;
+}
+.conv_body .selects table tbody tr .td_empty{
+	width: 3px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.conv_body .selects table tbody tr td .input{
+	width: 90%;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+    line-height: 28px;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    padding: 1px 6px;
+	font-size: medium !important;
+	color: #878787 !important;
+	-webkit-writing-mode: horizontal-tb !important;
+	box-sizing: content-box;
+}
+.conv_body .selects table tbody tr td .sel{
+	border-radius: 0 0 2px 2px;
+    border: 1px solid gainsboro;
+	overflow: hidden;
+    position: relative;
+}
+.conv_body .selects table tbody tr td .sel .select{
+	-webkit-appearance: button;
+    border: none;
+    font-size: 13px;
+    list-style: none;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 300px;
+	background-color: whiteSmoke;
+    background-image: -webkit-linear-gradient(top,whiteSmoke,#f1f1f1);
+    height: 30px;
+    padding-left: 5px;
+	color: #212121 !important;
+}
+.conv_body .selects table tbody tr td .sel .sel1{
+	bottom: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    width: 11px;
+	background-color: whiteSmoke;
+    background-image: -webkit-linear-gradient(top,whiteSmoke,#f1f1f1);
+    height: 30px;
+    padding-left: 5px;
+}
+.conv_body .selects table tbody tr td .sel .sel2{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAALCAYAAACzkJeoAAAAOklEQVQYV2P4//8/AwxHRkb+B2I4H13iP7ICbBJwBbgkwBhuLDaMXxLZddgk8duJTQKnP7E6CFkChAFpxL/ydoaj+QAAAABJRU5ErkJggg== ) no-repeat center center;
+    bottom: 1px;
+    height: 28px;
+    pointer-events: none;
+    position: absolute;
+    right: 1px;
+    width: 11px;
+}
